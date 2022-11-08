@@ -1,8 +1,11 @@
 import React from "react";
+import Header from "./components/Header/Header";
 
 function App() {
   return (
-    <h1>My portfolio</h1>
+    <div className="main-container">
+      <Header />
+    </div>
   );
 }
 
