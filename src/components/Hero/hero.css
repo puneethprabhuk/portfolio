@@ -1,0 +1,46 @@
+.hero-container {
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero-left {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-left h1 {
+    font-size: 4rem;
+    color: #fff;
+}
+
+.hero-left .main-name {
+    padding-left: 1rem;
+}
+
+.main-name h1 {
+    padding-left: 1rem;
+}
+
+.hero-left p {
+    font-weight: 600;
+    font-size: 1.2rem;
+    color: rgb(6, 172, 75);
+}
+
+.download-cv {
+    cursor: pointer;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: rgb(6, 172, 75);
+}
